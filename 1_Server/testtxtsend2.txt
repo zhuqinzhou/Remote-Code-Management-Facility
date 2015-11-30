@@ -1,0 +1,948 @@
+﻿Driver Sweeper.
+Copyright (C) 2007-2011 Phyxion.net.
+All Rights Reserved.
+
+
+I. Description
+
+   Driver Sweeper keeps your PC stable and fast with advanced driver removal that ensures the maximal performance of your PC.
+
+   Key Features
+
+   - Scan and Remove - Scan for driver entries on your system and remove the entries you actually want to remove.
+
+   - Desktop Icons - Backup the positions of your desktop icons and restore them after the new drivers are installed. No manual arrangement of your desktop icons anymore after a new driver installation.
+
+   - Custom Filters - Create custom filters for other drivers or extend the shipped filters of Driver Sweeper.
+
+   - Log Files - View detailed information about the removed driver entries.
+
+   - Backup Manager - Driver Sweeper automatically creates a backup of the drivers you selected to remove. You can restore all removed entries if you want to revert to a previous driver version.
+
+   - Parameters - Use parameters to completely automate the cleaning process.
+
+   - Free - Driver Sweeper is completely free of charge!
+
+
+II. Requirements
+
+   Operating Systems - Any Windows version (32-bit and 64 bit) with Microsoft .NET Framework 3.0 or higher installed.
+   Disk Space (Downloaded) - 5MB
+   Disk Space (Installed) - 20MB
+
+
+III. Documentation
+
+   All documentation can be found online at 
+
+   http://phyxion.net
+
+
+IV. Changelog
+
+   Version 3.2.0 - 24-09-11
+
+    New:
+
+    - Added Realtek - LAN cleaning.
+
+    Updated:
+
+    - Improved registry entries detection.
+    - Improved AMD - Display cleaning.
+    - Improved NVIDIA - Display cleaning.
+
+
+   Version 3.1.0 - 05-06-11
+
+    New:
+
+    - Added Marvell - Storage cleaning.
+      Thanks to agent47.
+    - Added JMicron - Storage cleaning.
+      Thanks to agent47.
+    - Added HP - Printer cleaning.
+      Thanks to agent47.
+    - Exceptions will now be reported automatically to phyxion.net.
+
+    Updated:
+
+    - Improved NVIDIA - Chipset cleaning.
+    - Improved AMD - Display cleaning.
+    - Improved NVIDIA - Display cleaning.
+    - Desktop Icon 'Save' button now automatically selects the new item.
+    - Changed the location of the update files.
+
+    Fixed:
+
+    - Rare crash when scanning for a file when the directory does not exists.
+    - Exception after clicking on the 'Update' button.
+    - NVIDIA - Chipset problems.
+
+
+   Version 3.0.0 - 22-04-11
+
+    New:
+
+    - Added NEC - USB cleaning.
+      Thanks to wiak.
+    - Added Fresco Logic - USB cleaning.
+      Thanks to wiak.
+    - Added theme support. There are four additional themes to choose from besides the default theme.
+
+    Updated:
+
+    - Improved AMD - Display cleaning.
+    - Improved Intel - Chipset cleaning.
+    - Improved NVIDIA - Display cleaning.
+    - Improved NVIDIA - Chipset cleaning.
+    - Improved NVIDIA - PhysX cleaning.
+    - External executables are now executed in Windows Temp folder to prevent antivirus warnings.
+    - Initial work done for a major improvement to both cleaning and restore methods.
+    - Removed unused external executable.
+    - Improved update check.
+    - Internal libraries.
+    - Improved Traditional Chinese translation.
+      Thanks to 呆呆烈.
+
+
+   Version 2.9.5 - 13-03-11
+
+    Updated:
+
+    - Improved AMD - Display cleaning.
+    - Improved Intel - Chipset cleaning.
+    - Improved NVIDIA - Display cleaning.
+
+    Fixed:
+
+    - Some registry keys not listed properly.
+
+
+   Version 2.9.0 - 26-02-11
+
+     New:
+
+     - Added Intel - Chipset cleaning.
+     - Some layout changes.
+
+     Updated:
+
+     - Renamed ATi - Display to AMD - Display.
+     - Improved AMD - Display cleaning.
+     - Improved ASUS - Sound cleaning.
+     - Improved Creative - Sound cleaning.
+     - Improved NVIDIA - Display cleaning.
+     - Improved directory restore.
+     - Replaced local documentation with online documentation.
+
+     Fixed:
+
+     - False positive warning during install.
+
+
+   Version 2.8.5 - 22-01-11
+
+     Updated:
+
+     - Improved ATi - Display cleaning.
+     - Improved NVIDIA - Display cleaning.
+     - Improved Microsoft - Keyboard cleaning.
+
+     Fixed:
+
+     - Not able to restore all files and directories.
+     - Windows 7 Service Pack 1 issues.
+     - Backup size information not placed correctly after resizing main window.
+     - Empty border around the main window (Windows XP).
+
+
+   Version 2.8.0 - 18-12-10
+
+     New:
+
+     - Close application with Ctrl+W.
+
+     Updated:
+
+     - Improved ATi - Display cleaning.
+     - Improved NVIDIA - Display cleaning.
+     - Improved update notification.
+     - Improved overall performance.
+     - Increased timeout for update.
+
+     Fixed:
+
+     - Backup screen exception when Tahoma font is not installed properly.
+     - Some potential exceptions.
+
+
+   Version 2.7.5 - 15-11-10
+
+     New:
+
+     - Added Microsoft - Keyboard cleaning.
+     - Layout settings are now remembered.
+
+     Updated:
+
+     - Increased timeout for update.
+     - Improved ATi - Display cleaning.
+     - Improved NVIDIA - Display cleaning.
+     - Improved Microsoft - Mouse cleaning.
+     - Improved directory cleaning methods.
+     - Improved registry analyse methods.
+     - Improved startup time.
+     - Removed Guru3D branding.
+
+     Fixed:
+
+     - Rare NullReferenceException while analysing directories.
+     - Some layout problems while resizing.
+
+
+   Version 2.6.0 - 22-10-10
+
+     New:
+
+     - Added ASUS - Sound cleaning.
+       Thanks to topyrz.
+     - Added process stopping to prevent several entries being locked.
+       This includes several OS processes and third party software (RivaTuner, Afterburner, etc).       
+     - Added service stopping and cleaning.
+
+     Updated:
+
+     - Improved file cleaning methods.
+     - Improved ATi - Display cleaning.
+     - Improved Creative - Sound cleaning.
+       Thanks to DyP and MrBozack.
+     - Improved NVIDIA - Display cleaning.
+
+     Fixed:
+
+     - Some registry entries not showing up in the analyse list.
+     - Some file and directory entries not marked as cleaned.
+     - Additional cleaning methods not working when files are protected by OS.
+     - Unhandled Exception crash occurred while trying to find some directories.     
+
+
+   Version 2.5.0 - 05-09-10
+
+     New:
+
+     - Replaced cog icon with a new icon.
+     - Character to seperate registry keys from registry values in the analyse list.
+     - Some layout changes.
+     - Increased default window size.
+     - Update notifications, auto update has been removed.
+     - Directory wildcard search for custom filters.
+     - Added Norwegian translation.
+       Thanks to Magnus Granås.
+     - Added Arabic translation.
+       Thanks to Awadh.
+
+     Updated:
+
+     - Improved registry cleaning methods.
+     - Improved directory cleaning methods.
+     - Rewritten the readme file.
+     - Rewritten the help file.
+     - Internal libraries.
+     - Improved Creative - Sound cleaning.
+       Thanks to Karol C.
+     - Improved ATi - Display cleaning.
+       Thanks to several people for supplying additional entries.
+     - Improved NVIDIA - Display cleaning.
+       Thanks to theGryphon.
+     - Improved NVIDIA - PhysX cleaning.
+  
+     Fixed:
+
+     - Rare crash using backup.
+     - %WinDir% variable not working properly.
+     - Command Prompt after reboot in rare circumstances.
+     - Potential crash.
+
+
+     Special thanks fly out to TwL for making this release possible.
+
+
+   Version 2.1.0 - 26-11-09
+
+     New:
+
+     - Added Brazilian Portuguese translation.
+       Thanks to Thiago Lara.
+     - Added Turkish translation.
+       Thanks to Oguz Ari.
+     - Parameters for Desktop Icon Restoration.
+       -icon:last 		Uses the last known backup.
+       -icon:first 	Uses the first known backup.
+       -icon:<datetime>	Uses the backup known from date and time as can be found in the item list.
+
+     Updated:
+
+     - Changed clean parameters to -clean:"NVIDIA - Display".
+
+     Fixed:
+
+     - Exception while trying to restore desktop icons.
+     - Desktop Icon not working properly on Windows 7.
+
+
+     A big thanks to Thorsten Blauhut for his Desktop Icon program which helped me address this issue.
+
+
+   Version 2.0.5 - 22-07-09
+
+     New:
+
+     - Added Slovakian translation.
+       Thanks to Gizmo[SK].
+
+     Updated:
+
+     - Improved startup time again, should be fast enough now.
+     - Improved load speed of several screens.
+
+     Fixed:
+
+     - Exception in rare cases while saving options.
+     - Delay when checking for updates.
+     - Restored manifest file to automate UAC prompts.
+
+
+   Version 2.0.0 - 21-07-09
+
+     New:
+
+     - Resizable window.
+     - Lowered requirements to .NET 3.0.
+     - Windows 7 support.
+       Only the final version is supported.
+     - Added Polish translation.
+       Thanks to Skeleton.
+     - Added Italian translation.
+       Thanks to Matteo.
+     - Added Simplified Chinese translation.
+       Thanks to 王不留行.
+     - Added Hungarian translation.
+       Thanks to Thrawn.
+
+     Updated:
+
+     - Improved startup time.
+     - Improved ATi - Display cleaning.
+     - Improved NVIDIA - Display cleaning.
+     - Improved NVIDIA - PhysX cleaning.
+     - Improved Creative - Sound cleaning.
+       Thanks to Flukester.
+     - Reduced the number of files installed by 6.
+     - Changed some tempfiles to be more friendly for some HIPS.
+
+
+   Version 2.0.0 - Beta 2 - 31-01-09
+
+     New:
+
+     - Added select/deselect in clean screen.
+     - Added Bulgarian translation.
+       Thanks to Ивомир Петров.
+     - Added Czech translation.
+       Thanks to Kofi.
+     - Added Danish translation.
+       Thanks to Animatrix.
+     - Added Finnish translation.
+       Thanks to Anarion.
+     - Added French translation.
+       Thanks to NiukNiuk.
+     - Added German translation.
+       Thanks to Bravo.
+     - Added Japanese translation.
+       Thanks to ot_inc.
+     - Added Korean translation.
+       Thanks to unplugkim.
+     - Added Lithuania translation.
+       Thanks to Linas.
+     - Added Russian translation.
+       Thanks to un1c0de.
+     - Added Spanish translation.
+       Thanks to _GalForD_.
+     - Added Swedish translation.
+       Thanks to Stefan.
+     - Added Traditional Chinese translation.
+       Thanks to 呆呆烈.
+     - Added Ukrainian translation.
+       Thanks to un1c0de.
+
+     Updated:
+
+     - Improved startup time.
+
+     Fixed:
+
+     - Some translations not working and missing.
+     - Made some buttons larger for translations.
+     - Error at desktop icons.
+     - Reboot not working on all systems.
+     - Update check not working properly.
+     - Drag and Drop in main menu.
+
+
+   Version 2.0.0 - Beta 1 - 24-01-09
+
+     New:
+
+     - Driver Sweeper is completely rewritten from scratch.
+       This version requires at least .NET 3.5 installed.
+     - Experimental Windows 7 support.
+     - UAC message requiring administrator access on Windows Vista and Windows 7
+       on startup if UAC is enabled.
+
+     Updated:
+
+     - Improved ATi - Display cleaning.
+     - Improved NVIDIA - Display cleaning.
+     - Improved NVIDIA - PhysX cleaning.
+     - Renamed AGEIA - PhysX to NVIDIA - PhysX.
+
+     Fixed:
+
+     - Registry not working properly on Windows x64 versions.
+
+
+     This version is a beta version and feedback is needed!
+     Please send any problems, missing features and feedback to driversweeper@phyxion.net or post it on the Guru3D forum.
+
+
+   Version 1.5.5 - 14-06-08
+
+     New:
+
+     - Single click restore from system tray.
+
+     Updated:
+
+     - Improved NVIDIA File cleaning (CUDA).
+     - Several translations.
+
+
+   Version 1.5.0 - 07-06-08
+
+     New:
+
+     - Redone GUI.
+     - You can now check after cleaning if an entry has been removed
+       or not without opening Logs.
+       If a checkbox is checked the entry is removed.
+     - Added popup after cleaning has been finished.
+     - Added French translation.
+       Thanks to NiukNiuk.
+     - Added Simplified Chinese translation.
+       Thanks to 王不留行.
+     - Added Danish translation.
+       Thanks to Animatrix.
+     - You can now add custom filters.
+       You can add filters for almost everything. Not only drivers,
+       but also filters for applications.
+       It's also possible to extend the current filters.
+       If you add a filter or extend a current filter, please send it
+       to driversweeper@phyxion.net.
+
+       Files:
+         - You can use wildcards: * , this will find everything
+           matching the wildcard. You can use multiple wildcards
+           at the same time.
+
+         Example:
+
+	   C:\Windows\System32\at*.*s
+           will find all files matching the at*.*s phrase.
+
+         - You can use all System Environment variables, like %Systemroot%.
+
+
+       Registry:
+         - If you want to remove a key in the registry, make sure
+           the value you want to clean ends with a \ .
+         - Values can be removed without a \ at end of value.
+
+      	 Example:
+
+	   HKEY_LOCAL_MACHINE\Software\ATi Technologies\
+           will detect the key ATi Technolgies.
+
+           HKEY_LOCAL_MACHINE\Software\ATi Technologies\ATi
+           will detect the value ATi.
+
+       Directory:
+         - You can also use System Environment variables.        	
+    
+     Fixed:
+
+     - NVIDIA LAN driver problem after deleting NVIDIA
+       Display drivers.
+     - Deleting directories could cause an error.
+     - ASIO cleaning redone for Creative - Sound, previous cleaning
+       could cause problems with other ASIO drivers.
+     - Registry restore not working properly in some cases. 
+     - File cleaning now works properly on Windows x64. On older versions
+       almost no files where detected to be cleaned. This is a known bug which
+       exists in a lot of programs. This build fixes this problem, but
+       you need to have .NET 2.0 or higher installed.
+
+     Updated:
+
+     - Optimized scanning of files and registry keys.
+     - Changed save date and time format to yy-mm-dd.
+     - Improved ATi Registry cleaning.
+     - Improved NVIDIA File cleaning.
+     - Rewritten Desktop Icon Restorer, it's now compatible with
+       Windows x64 as well. Multiple displays are also supported.
+       On x64 version's you need to have .NET 2.0 or higher installed.
+
+
+     Special thanks to Dragunov, Mr. T and all translators for this release!
+
+
+   Version 1.0.0 - 23-09-07
+
+     New:
+
+     - Desktop Icon Position Restorer. This can restore the
+       positions of your desktop icons.
+       Only 32-bit Windows versions are supported at the moment.
+
+     Updated:
+
+     - Help is now opened maximized. 
+     - Improved Creative File Cleaning.
+       Thanks to MrBozack.
+     - Improved Creative Registry Cleaning.
+       Thanks to MrBozack.
+     - New icons on toolbar.
+     - Added Spanish translation.
+       Thanks to _GalForD_.
+     - Added Portuguese translation.
+       Thanks to AmnesyA.
+     - Optimalizations.
+     - Window positions from Logs, Backups, Options and Desktop
+       Icon Restorer are now at the center of main.
+
+
+     Special thanks to Na'Ryan and Mr. T. for this release!
+
+
+   Version 0.9.0 - 27-07-07
+
+     New:
+
+     - You can now create a backup. You can enable this in Options.
+       You can restore a backup in Tools->Backup. All existing files
+       will be overwritten.
+       Files not able to backup will be backuped upon reboot.
+       Files not able to restore will be restored upon reboot.
+       Total diskspace used by backups and the diskspace per backup
+       can be found in Tools->Backup.
+     - Added option to remove the C:\ATi.
+     - Items can be selected using Enter if you are in the
+       select box.
+     - Items can be deleted using Enter if you are in the
+       remove box.
+     - You can "Run Sweeper" using Ctrl+R.
+
+     Fixed:
+ 
+     - On some systems reboot logged the PC off, instead of rebooting.
+       Thanks to JR.
+     - Bug in Options->Cleaning.
+     - System beep if you close Options, Log, Backup or About.
+     - Start a new cleaning process while the current
+       cleaning process is still running.
+     - Reboot will only occur if something is deleted.
+
+     Updated:
+  
+     - Improved NVIDIA Registry Cleaning.
+     - Improved NVIDIA File Cleaning.
+     - Improved ATi Registry Cleaning.
+     - Added Japanese translation.
+       Thanks to ot_inc.
+     - Added Turkish translation.
+       Thanks to Kenan Balamir.
+     - Added Korean translation.
+       Thanks to unplugkim.
+     - Optimalizations.
+     - New layout of Logs.
+     - New main layout.
+     - Icons at messages (Warning, Reboot) are back.
+     - Reduced load on loading and saving logfiles.
+     - Logs are now saved in Unicode.
+     - Any open screens need to be closed now before
+       continue using application.
+
+
+   Version 0.7.5 - 07-07-07
+
+     New:
+
+     - Added a Help File. You can open this in Help->Contents
+       or by pressing F1.
+     - AGEIA PhysX File and Registry Cleaning.
+       The parameter is -AGEIA.
+     - Microsoft Mouse File and Registry Cleaning.
+       The parameter is -MMouse.
+     - Added English example to Languages.ini.
+     - You can now close Options, Logs and About using
+       the Escape button.
+     - Unicode support for Multilanguage, now you aren't
+       limited to ANSI signs anymore. 
+     - Added program logo.
+       Thanks to z3r0x for his work on this.
+     - New layout for Options.
+       All cleaning stuff is splitted now. If you want
+       to Enable or Disable ALL File and/or Registry
+       Cleaning you can click on Cleaning.
+     - Layout changes for Logs and About.
+     - You can now select the Logs you want to remove
+       using checkboxes.
+     - Option to reboot the system after cleaning.
+     - Folders not able to delete will also be deleted
+       at reboot.
+
+     Fixed:
+
+     - Language selection could crash the program.
+     - Directory of executable wasn't properly
+       selected in some parts of the program 
+       if you opened DriverSweeper using another application.
+     - File not found error.
+       Thanks to Na'Ryan and Jelle for helping me out
+       with this.
+     - Progressbar is now working as it should be.
+     - Everything is now reloaded if you open Options,
+       Logs or About.
+     - Logfiles weren't saved properly.
+
+     Updated:
+
+     - Added Finnish translation.
+       Thanks to Anarion.  
+     - Added Russian translation.
+       Thanks to un1c0de and Adept.  
+     - Added Ukrainian translation.
+       Thanks to un1c0de.
+     - Added German translation.
+       Thanks to z3r0x.
+     - Added Hungarian translation.
+       Thanks to Thrawn.
+     - Using different way to display the warning message.
+       This results in 17KB smaller exe size and localized
+       buttons.
+     - Removed some double language translations.
+     - Added translations for SystemTray.
+     - Massive improvement in ATi File Cleaning.
+     - Massive improvement in ATi Registry Cleaning.
+     - Improved NVIDIA Registry Cleaning.
+     - Improved Creative Registry Cleaning.
+     - Improved Realtek Registry Cleaning.
+     - Improved Realtek File Cleaning.
+     - More optimalizations done for translations.
+     - Further optimalizations.
+     - Items in Logs are now sorted.
+
+     Translations can be send to driversweeper@phyxion.net
+
+     Special thanks to z3r0x for this release!
+
+
+   Version 0.4.5 - 20-06-07
+
+     New:
+
+     - Multilanguage support.
+       You can now add your own languages for DriverSweeper.
+       How to add more languages:
+       Open the languages.ini file. If you open it you
+       see a sample of the translation into Dutch and Polish.
+       Copy one translation and paste it in the same
+       file. Rename [Dutch] or [Polish] to the language you want
+       to translate. Finished translations can be send to:
+       driversweeper@phyxion.net
+     - Buttons to add and remove everything.
+     - Parameter '-Quit' will Quit the application
+       after drivers have been cleaned using parameters.
+     - It's possible to delete C:\NVIDIA.
+       You can enable this in Options->Miscellaneous.
+       It's no problem if you have Windows installed
+       on a different drive then C:\.
+     - Display warning message before cleaning.
+       You can disable this in Options->Miscellaneous.
+
+     Fixed:
+
+     - Disabled Remove buttons if nothing is selected.
+     - Deleted and Not deleted in Logs weren't
+       always working properly.
+     - Directory of executable wasn't properly
+       selected if you opened DriverSweeper using another
+       application (Like Total Commander and FTPRush).
+     - Realtek Audio cleaned under weird circumstances
+       a file from Realtek LAN.
+       Thanks to nCaine for notifying.
+
+     Updated:
+
+     - A lot of optimalizations are done.
+     - Removed some unneeded code.
+     - Creative and Realtek Files & Registry fixes.
+     - Files not deleted (In use, for example)
+       will be removed at next reboot.
+       You can disable this in Options.
+       This also means it is now possible to properly
+       clean drivers without booting into Safe Mode.
+       After using the official uninstaller of the drivers,
+       you can use Driver Sweeper and reboot your PC.
+     - Options rearranged.
+     - Added Dutch translation.
+     - Added Polish translation.
+       Thanks to NekroSoft13.
+
+
+   Version 0.4.1 - 06-06-07
+
+     New:
+
+     - Guru3D - Driver Cleaner has been renamed to
+       Guru3D - Driver Sweeper (G3DDS).
+
+     Fixed:
+
+     - No log files will be created anymore if nothing
+       is cleaned.
+
+     Updated:
+
+     - Parameters aren't case sensitive anymore.
+     - The parameters are now:
+       -NVIDIA
+       -NVIDIAChipset
+       -ATi
+       -Creative
+       -Realtek
+     - Improved NVIDIA File Cleaning.
+     - Rewritten some code for Clean & Select box.
+     - Some layout fixes for main.
+
+
+   Version 0.4.0 - 03-06-07
+
+     New:
+
+     - XDC is renamed to Guru3D - Driver Cleaner.
+       The short name will be G3DDC.
+     - Added version information to the executable.
+       It is now possible to check information about G3DDC
+       using Properties under Microsoft Windows. 
+     - Added the option to start with parameters.
+       These are the current supported parameters:
+     
+          NVIDIA
+          NVIDIAChipset
+          ATi
+          Creative
+          Realtek
+    
+          For example,
+
+          "\G3DDC.exe" NVIDIA ATi
+
+          will clean NVIDIA Display and ATi Display drivers.
+
+          You can do this by creating a shortcut to the
+          program's exe file and add the parameters next to it.
+          With this you don't have to select the to-be-cleaned
+          drivers anymore, and will save you time if you
+          are always cleaning the same drivers.
+     - Added key combinations to open program parts.
+       Check menu for the key combinations.
+     - It is now possible to minimize to systemtray.
+       You can enable this in the options (Standard disabled).
+  
+     Fixed:
+
+     - Resizing is disabled.
+     - Improved progressbar.
+
+     Updated:
+
+     - Reduced filesize.
+     - Changed the version numbers to x.y.z (previous x.yz).
+     - Internal optimalizations.
+     - Improved NVIDIA File cleaning.
+     - Rewritten most logs code.
+     - Redone some About code.
+     - Removed minimize and maximize buttons
+       from About, Options and Log.
+     - You now have to double click on items
+       in other logs to get them in Deleted and Not deleted.
+
+
+   Version 0.35 - 28-05-07
+
+     New:
+
+     - Added Realtek File and Registry cleaning. 
+       This includes InstallShield cleaning.
+     - Added ability to save the logfiles. This is disabled
+       by default. You can enable this in the Options or
+       change it in the ini file under the Logfiles section.
+       You can view previous logfiles by clicking on Older
+       Logs. Click on the logname what you want to view.
+       The items will be added under the proper sections.
+       After clicking the Clean button, the most recent 
+       logs are found also under Deleted and Not deleted.
+       You can remove the log files by clicking on a logname
+       and then the remove button. Remove All removes all
+       logfiles from the Logs folder.
+
+     Updated:
+
+     - Improved NVIDIA File cleaning. 
+       Thanks to adrichardson for providing some filenames.
+     - Improved NVIDIA Registry cleaning.
+       Thanks to adrichardson for providing some keynames.
+     - Improved NVIDIA Chipset Registry cleaning.
+     - Redone About. Please check it.
+     - Improved ATi File cleaning.
+     - New layout for Log.
+     - New layout for Options.
+
+
+   Version 0.30 - 20-05-07
+
+     New:
+
+     - Added Options in the menu to check what you want to clean. 
+       (Eq NVIDIA File, NVIDIA Registry)
+       Now it isn't needed anymore to edit it in the ini file.	
+     - Added NVIDIA Chipset cleaning.
+     - Added InstallShield cleaning to Creative File cleaning
+       (Thanks to adrichardson).
+ 
+     Fixed:
+
+     - Fixed a bug with ATi File cleaning if install path wasn't standard.
+     - Fixed a bug in the progressbar, it did not work properly.
+
+     Updated:
+
+     - Rewritten all ini files code (again).
+     - Changed the captions of the Select and Delete buttons to >> and <<.
+     - Improved NVIDIA File cleaning. There are a lot of new files added.
+     - Rewritten all delete code.
+     - Removed some unneeded code.
+     - Updated the functions to get the System directories.
+
+
+   Version 0.25 - 16-05-07
+
+     New:
+
+     - Added ATi Registry cleaning
+     - Changed the maintitle of the program.
+     - Added a Menu to improve the layout.
+     - Added Creative Registry cleaning and File cleaning.
+
+     Fixed:
+
+     - Ini file will now be saved when the program closes. 
+       Now it isn't needed to delete the ini file after a program update.
+
+     Updated:
+
+     - Improved ATi File cleaning.
+     - Further optimalizations.
+     - Changed the selectable names. Type is now included.
+     - Rewritten the ini files code.
+
+
+   Version 0.2a - 14-05-07
+
+     Fixed:
+
+     - Bug fixed that no files from NVIDIA where deleted.
+
+
+   Version 0.2 - 12-05-07
+
+     New:
+
+     - Log to check if your remaining files are deleted or not.
+     - Ini file. You can change in here (1 <-> 0) if you want 
+       NVIDIA Registry cleaning and/or NVIDIA File cleaning. 
+       I decided to go for ini files because I want it to be a 
+       portable application too. If no ini file exists, a new one 
+       will be created with both NVIDIA Registry cleaning and NVIDIA File cleaning on.
+
+     Updated:
+
+     - A lot of internal cleaning/fixes.
+     - Completely rewritten the Registry cleaning (Not the values to be cleaned).
+     - Added a new file to NVIDIA File cleaning.
+     - Redone "About".
+
+
+   Version 0.1 - 09-05-07
+
+     New:
+
+     - Basic ATi File cleaning
+     - Added NVIDIA Registry cleaning
+
+     Updated:
+
+     - Improved File cleaning for NVIDIA
+     - Improved layout
+     - Internal fixes
+
+
+   Version Initial - 07-05-07
+
+     New:
+
+     - Initial version.
+
+
+V. Contact
+
+   All contact information can be found online at 
+
+   http://phyxion.net
+
+
+VI. Disclaimer
+
+   1.  This software is provided "as-is," without any express or implied warranty.
+       In no event shall the author be held liable for any damages arising from the
+       use of this software.
+   
+   2.  All logos and names are property of their rightful owners.
+
+   3.  Users may download Driver Sweeper free of charge and use this software
+       for non-commercial purposes. Companies are not allowed to use Driver Sweeper
+       without asking permission from the author.
+
+   4.  Driver Sweeper may be copied and redistributed without permission, but making
+       changes to the software, it's content or the installer is strictly forbidden.
+
+   5.  The author always has the right to deny copying or redistribution of Driver Sweeper,
+       no matter the circumstances.
+
+   6.  You may not reverse engineer, decompile or disassemble the software.
+
+   7.  Usage of this software indicates your acceptance of this disclaimer. 
+       'Usage' also defines installing, copying or providing the software for third-parties.
+
+

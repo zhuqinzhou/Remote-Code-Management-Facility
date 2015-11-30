@@ -1,0 +1,5 @@
+*.DS_Store
+[Dd]ebug*/
+[Rr]elease*/
+*.sdf
+./Developer Command Prompt for VS2013
