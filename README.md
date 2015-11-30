@@ -15,3 +15,6 @@ This project requires you to design and implement a facility for remote code man
 10. shall use the high resolution timer provided by the std::chrono library.  
 11. The GUI client and server shall display information to demonstrate clearly and succinctly that all requirements of this project have been met.  
 12. shall provide one compile.bat and one run.bat file that build and then execute your demonstrations.  
+
+##Demo  
+Please refer to [README.pdf](README.pdf)
