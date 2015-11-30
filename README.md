@@ -1,9 +1,8 @@
 # Remote-Code-Management-Facility
-##Purpose
+##Purpose  
 This project requires you to design and implement a facility for remote code management (RCM). Management consists of transferring files to and from the local and remote machines, exploring a directory subtree on a remote machine, identifying files and searching for specific texts within files. The facility will use communication software (Pr3) to start search tasks on a remote server and return results while serving multiple concurrent clients.
 
-##Requirements
-Your Message-Passing Communication project:
+##Requirements  
 1. shall use standard C++ and the standard library, compile and link from the command line, using Visual Studio 2013, as provided in the ECS clusters and operate in the environment provided there.  
 2. shall use services of the Windows Presentation Foundation (WPF), using either C# or C++/CLI, for all input and output to and from the user’s console and C++ smart pointers for all server dynamic memory management.  
 3. shall provide a server application that supports uploading and downloading source code files, exploring one specific directory subtree, and performing file searches and concurrent string searches within source code files in that tree.  
