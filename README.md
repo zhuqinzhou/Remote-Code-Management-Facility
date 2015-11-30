@@ -1,6 +1,6 @@
 # Remote-Code-Management-Facility
 ##Purpose
-This project requires you to design and implement a facility for remote code management (RCM). Management consists of transferring files to and from the local and remote machines, exploring a directory subtree on a remote machine, identifying files and searching for specific texts within files. The facility will use communication software you built in Project #3 to start search tasks on a remote server and return results while serving multiple concurrent clients.
+This project requires you to design and implement a facility for remote code management (RCM). Management consists of transferring files to and from the local and remote machines, exploring a directory subtree on a remote machine, identifying files and searching for specific texts within files. The facility will use communication software (Pr3) to start search tasks on a remote server and return results while serving multiple concurrent clients.
 
 ##Requirements
 Your Message-Passing Communication project:
